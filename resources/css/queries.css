@@ -172,8 +172,7 @@
   footer {
     font-size: 0.75rem;
   }
-
-  /* end font-size ---------------- */
+  /* end font-size stying -------------- */
 
   header.wrap-row {
     justify-content: center;
@@ -204,5 +203,4 @@
   .video {
     padding: 32px 0 70px 0;
   }
-
 }
