@@ -1,4 +1,4 @@
-/* ------------- COMMON PROPERTIES -------------- */
+/* ------------- GLOBAL -------------- */
 body {
   background-color: #eee;
   color: #3c3c3d;
@@ -25,6 +25,67 @@ font-size: 16px;
 font-weight: 300;
 border: none;
 padding: 8px 0;
+cursor: pointer;
+}
+
+.btn-default:hover {
+  background-color: #e4e4e4;
+  color: #3c3c3d;
+}
+
+.active {
+  background-color: #dadada;
+}
+
+blockquote {
+  font-weight: 300;
+  line-height: 1.4;
+  width: 95%;
+}
+
+/* ------------- COMMON STYLE -------------- */
+/* ------------- HEADERS, IMGS and COLLUMNs -------------- */
+header a,
+footer a {
+  color: #666;
+  padding-left: 16px;
+}
+
+header a:hover,
+footer a:hover {
+  color: #e4e4e4;
+}
+
+.keep-practicing h3,
+.courses h3,
+.thesis h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.keep-practicing h3,
+.thesis h3 {
+  padding: 32px 0 24px 0;
+}
+
+.info h4,
+.courses-options h4,
+.thesis h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.thesis-info img,
+.options-info img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+/* information and thesis */
+.info {
+  width: 65%;
+  height: auto;
+  padding-right: 10px;
 }
 
 /* ----------------- HEADER ------------------- */
@@ -35,7 +96,7 @@ header {
 
 .logo h1 {
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 1.55rem;
   font-weight: 300;
   padding-left: 3px;
 }
@@ -44,9 +105,14 @@ header {
   font-weight: 700;
 }
 
-header nav a {
-  color: #666;
-  padding-left: 16px;
+/* ----------------- MOBILE NAV ------------------- */
+.mobile {
+  display: none;
+}
+
+nav a img {
+  vertical-align: middle;
+  padding-left: 45px;
 }
 
 /* ----------------- BANNER ------------------- */
@@ -83,7 +149,7 @@ header nav a {
   padding-bottom: 20px;
 }
 
-/* ----------------- INFO ------------------- */
+/* ----------------- INFORMATION ------------------- */
 .all-info.wrap-row {
   align-items: flex-start;
 }
@@ -99,42 +165,16 @@ header nav a {
   height: auto;
 }
 
-.keep-practicing h3 {
-  font-size: 2.2rem;
-  font-weight: 700;
-  padding: 32px 0 24px 0;
-}
-
-blockquote {
-  font-weight: 300;
-  line-height: 1.4;
-  width: 95%;
-}
-
 .keep-practicing p {
   font-size: 1rem;
   padding: 32px 0;
 }
 
 /* INFO right side */
-
-.info-options {
+.options-info {
   width: 40%;
+  height: auto;
   padding: 16px 0 32px 0;
-}
-
-.info-options img {
-  width: 35%;
-  padding: 16px;
-}
-
-.info {
-  width: 65%;
-}
-
-.info h4 {
-  font-size: 1.5rem;
-  font-weight: 700;
 }
 
 .info p {
@@ -146,6 +186,82 @@ blockquote {
   color: #00a1dd;
 }
 
-.lecture.active {
+/* --------------- COURSES ------------------- */
+.courses {
+  background-color: #e4e4e4;
+  padding: 32px 72px;
+}
+
+.courses h3 {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.courses-options.wrap-row {
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.course {
+  background-color: #fff;
+  width: 30%;
+  min-height: 410px;
+  height: auto;
+  margin-bottom: 32px;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.course-info {
+  padding: 16px;
+}
+
+.course-info p {
+  padding: 8px 0;
+}
+
+/* ----------------- MOBILE COURSES ------------------- */
+
+.courses-options .mobile {
   background-color: #dadada;
+  padding: 16px 0 24px 16px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* --------------- THESIS SECTION ----------------- */
+
+.video {
+  width: 60%;
+  height: auto;
+  padding: 0 24px;
+}
+
+.about-thesis.wrap-row {
+  align-items: flex-start;
+  padding-bottom: 70px;
+}
+
+.thesis h3 {
+  text-align: center;
+}
+
+.about-thesis h3 {
+  text-align: left;
+}
+
+.thesis-info {
+  width: 40%;
+  height: auto;
+}
+
+/* ----------------- FOOTER --------------------- */
+
+footer {
+  background-color: #dadada;
+  font-size: 0.9rem;
+  padding: 16px 24px 60px 24px;
 }

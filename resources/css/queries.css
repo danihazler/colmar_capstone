@@ -1,0 +1,208 @@
+@media only screen and (max-width:1095px) {
+  /* ---- div directions and widths changed at this point ---- */
+  .banner-description h2,
+  .banner-description h3 {
+    width: 100%;
+  }
+
+  .all-info.wrap-row,
+  .about-thesis.wrap-row {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 24px;
+  }
+
+  .keep-practicing {
+    width: 100%;
+    padding: 0;
+  }
+
+  .options-info.wrap-column,
+  .thesis-info.wrap-column {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+  }
+
+  .orientation.wrap-row,
+  .campus.wrap-row,
+  .lecture.wrap-row {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 15px 10px 15px;
+  }
+
+  .orientation.wrap-row,
+  .campus.wrap-row,
+  .lecture.wrap-row {
+    width: 45%;
+  }
+
+  .fisma.wrap-row,
+  .now-then.wrap-row {
+    align-items: flex-start;
+    width: 45%;
+    padding: 16px;
+  }
+
+  .options-info img {
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .thesis h3 {
+    padding-bottom: 0;
+  }
+
+  .thesis blockquote {
+    padding-top: 32px;
+  }
+
+  .thesis-info img {
+    padding: 0;
+  }
+
+  .video {
+    width: 100%;
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .active {
+    background-color: inherit;
+  }
+
+  .courses {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .course {
+    width: 49%; /*keeps a space in between */
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .options-info.wrap-column {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .banner.wrap-row {
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .banner img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .banner-description {
+    text-align: center;
+    padding: 32px 0;
+  }
+
+  .thesis-info {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:720px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .keep-practicing {
+    display: none;
+  }
+
+  .course {
+    display: none;
+    width: 100%;
+  }
+
+  .visible {
+    display: block;
+  }
+
+  .orientation.wrap-row,
+  .campus.wrap-row,
+  .lecture.wrap-row {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+/* ---- font-sizes changed here ---- */
+  body {
+    font-size: 16px;
+  }
+
+  .banner-description h2 {
+    font-size: 2.2rem;
+  }
+
+  .info h4,
+  .courses-options h4 {
+    font-size: 1.3rem;
+  }
+
+  .courses h3,
+  .thesis h3 {
+    font-size: 1.8rem;
+  }
+
+  .info a {
+    font-size: 0.85rem;
+  }
+
+  footer {
+    font-size: 0.75rem;
+  }
+
+  /* end font-size ---------------- */
+
+  header.wrap-row {
+    justify-content: center;
+  }
+
+  .banner-description {
+    text-align: left;
+    padding-left: 24px;
+  }
+
+  .logo h1 {
+    display: none;
+  }
+
+  .banner.wrap-row {
+    padding: 0;
+  }
+
+  .courses {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .about-thesis.wrap-row {
+    padding: 0;
+  }
+
+  .video {
+    padding: 32px 0 70px 0;
+  }
+
+}
